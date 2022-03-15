@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  padding: 1.5rem;
+  background-color: rgb(24, 24, 24);
+}
+.navbar-nav li {
+  padding-right: 20px;
+  color: #fff;
+}
+.nav-link {
+  font-size: 0.9em !important;
+}
+.navbar-text {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 60px;
+  text-shadow: 1px 1px 3px #fff;
+}
+ul {
+  margin-right: 60px;
+}
+.welcome {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid h2 {
+  font-weight: 400;
+  margin: 5rem 0;
+  color: #fff;
+}
+.container-fluid h3,
+p {
+  word-spacing: 0.8rem;
+}
+textarea {
+  resize: none;
+}
+.container-fluid input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #0c4941;
+}
+.container-fluid ::placeholder {
+  color: #0c4941;
+}
+.container-fluid textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #0c4941;
+}
+.container-fluid label h2 {
+  color: #000;
+  margin: 3rem 0;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  display: flex;
+  height: 50px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+.container-fluid .form-check {
+  margin-left: 20px;
+  text-align: center;
+}
+figure {
+  position: relative;
+  width: 100%;
+  height: 65%;
+  margin: 0 !important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url("img/contact.jpg");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
