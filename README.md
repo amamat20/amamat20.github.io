@@ -17,6 +17,7 @@ This project is a landing page for the "Incubator Startup" website, created as a
 1. Clone this repository:
 ```bash
 git clone https://github.com/amamat20/amamat20.github.io.git
+```
 2. Navigate to the project directory:
 cd incubator-startup
 3. Open the index.html file in your browser.
