@@ -24,6 +24,9 @@ cd incubator-startup
 ```
 3. Open the index.html file in your browser.
 
+## Installation
+<a href="https://amamat20.github.io/"><img src="https://github.com/amamat20/amamat20.github.io/blob/main/img/preview.png"></a>
+
 ## Contribution
 Feel free to fork this project and submit pull requests for any improvements or additional features.
 
